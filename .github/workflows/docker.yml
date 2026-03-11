@@ -26,5 +26,4 @@ jobs:
     - name: Push Image
       run: docker push ${{ secrets.DOCKER_USERNAME }}/flask-app
     - name : Basic info
-     run : whoami
-     run : ip addr show
+      run : whoami
